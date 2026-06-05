@@ -1,0 +1,13 @@
+{
+  "name": "syaf-coaching-kit",
+  "owner": {
+    "name": "Social Club Studios"
+  },
+  "plugins": [
+    {
+      "name": "syaf-coaching-kit",
+      "source": "./syaf-coaching-kit",
+      "description": "SYAF coaching toolkit — process call transcripts into the student vault, sync Drive recordings, prep pre-call student briefings."
+    }
+  ]
+}
