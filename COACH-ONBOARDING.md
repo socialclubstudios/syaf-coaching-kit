@@ -63,6 +63,7 @@ Restart Claude Code if it prompts you to.
 - **`student-briefing`** — "brief me on [name]" before a call. Pulls current focus, coaching history, action items, wins, and flags from the vault.
 - **`process-syaf-call`** — turn a call transcript into a student profile update + coaching log (wins, flags, action items).
 - **`sync-syaf-recordings`** — pull recordings from Google Drive and transcribe them into the vault. Needs an **AssemblyAI API key** set as `$ASSEMBLYAI_API_KEY` or saved to `~/.assemblyai_api_key`, plus Google Drive access — ask Peter for both.
+- **`skool-1on1-recap`** — turn an intro advisory call transcript into a ready-to-paste Skool community post that recaps the call for the student and the broader SYAF Accelerator group.
 
 > The first time a connector (Slack, ClickUp, Granola, Google Calendar/Drive) is used, Claude Code will prompt you to authenticate it. `student-briefing` and `process-syaf-call` work off the vault alone.
 

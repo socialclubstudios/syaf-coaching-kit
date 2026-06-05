@@ -18,6 +18,7 @@ New coach setting up from scratch (vault + plugin, step by step): see **[COACH-O
 | `student-briefing` | Pre-call briefing — focus, coaching history, action items, wins, flags from the vault |
 | `process-syaf-call` | Process a call transcript into a student profile update + coaching log |
 | `sync-syaf-recordings` | Pull recordings from Google Drive, transcribe (AssemblyAI), file into the vault |
+| `skool-1on1-recap` | Turn an intro advisory call transcript into a ready-to-paste Skool community recap post |
 
 All three read/write the **SYAF student vault** (`petervndr/syaf-brain`), cloned to `~/Documents/obsidian/syaf-brain`. The plugin is useless without it — do the vault setup first.
 

@@ -7,7 +7,7 @@
     {
       "name": "syaf-coaching-kit",
       "source": "./syaf-coaching-kit",
-      "description": "SYAF coaching toolkit — process call transcripts into the student vault, sync Drive recordings, prep pre-call student briefings."
+      "description": "SYAF coaching toolkit — process call transcripts into the student vault, sync Drive recordings, prep pre-call student briefings, and write Skool 1-on-1 recaps."
     }
   ]
 }
