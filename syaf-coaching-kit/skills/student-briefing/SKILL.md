@@ -112,6 +112,7 @@ Output a structured briefing in this exact format:
 5. **If the student has no coaching log entries**, say "No coaching history yet — this is their first interaction" and suggest pulling up their Intake Snapshot to review their situation
 6. **Calculate days since last interaction** — use the date from the most recent coaching log or check-in entry compared to today's date. Flag if it's been more than 30 days.
 7. **For multi-student briefings** — if the user asks for multiple students ("brief me on my calls today"), run the briefing for each student sequentially
+8. **Write the prose cleanly** — the Summary and Suggested Talking Points follow the SYAF house writing standard at [`../_shared/how-we-write.md`](../_shared/how-we-write.md): direct, plain, no banned phrases or AI tells
 
 ---
 

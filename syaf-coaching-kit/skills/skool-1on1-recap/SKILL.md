@@ -31,19 +31,9 @@ If none exist, skip the vault filing steps and warn the user that the transcript
 
 ## Voice principles
 
-Before drafting the post, read Peter's voice principles file from this skill's `references/voice-principles.md`.
+Before drafting the post, read the SYAF house writing standard at [`../_shared/how-we-write.md`](../_shared/how-we-write.md).
 
-This is required, not optional. The post output must comply with everything in that file. Specifically banned in the output:
-
-- Em dashes (use commas, colons, or periods instead)
-- "dive into," "game-changing," "straightforward," "leverage," "synergize," "circle back," "touch base"
-- Fragment question setups ("The best part?", "The wild thing?", "The scary truth?")
-- Hidden truth reveals ("Here's what nobody tells you...", "No one's saying this out loud, but...")
-- Flip contrasts ("It's not X, it's Y")
-- Poetic reductions ("Leadership isn't control, it's clarity")
-- Balanced reframes ("Everyone's chasing X, few are doing Y")
-- Sentences starting with "I think" or "I believe" when stating something directly
-- Paragraphs longer than 3 sentences
+This is required, not optional. The post must comply with everything in that file: the banned phrases, the banned sentence structures, the voice, and the formatting. Hold it in working memory for drafting (Step 6) and the scrub (Step 7).
 
 ---
 
@@ -57,7 +47,7 @@ This is required, not optional. The post output must comply with everything in t
 | **Coach names (exclude from speaker matching)** | Peter, Brian, Ryan, Zach, Cassidy, Kristin, Mckenzie, Sittie |
 | **Default tactical move count** | 3 (allow 2 if the call only covered two themes, 4 only if unusually broad) |
 | **Target post length** | 350-500 words |
-| **Voice file** | `references/voice-principles.md` (bundled with this skill) |
+| **Voice file** | [`../_shared/how-we-write.md`](../_shared/how-we-write.md) (shared SYAF house standard) |
 
 ---
 
@@ -74,9 +64,9 @@ If the user triggers the skill with a student name but no transcript, ask for th
 
 ## Pipeline
 
-### Step 1: Read voice principles
+### Step 1: Read the writing standard
 
-Use the Read tool to load `references/voice-principles.md` (relative to this skill's folder). Hold this in working memory for Step 6 (drafting) and Step 7 (scrub).
+Use the Read tool to load [`../_shared/how-we-write.md`](../_shared/how-we-write.md) (relative to this skill's folder). Hold this in working memory for Step 6 (drafting) and Step 7 (scrub).
 
 ### Step 2: Acquire transcript
 
@@ -184,15 +174,7 @@ Drafting rules:
 
 ### Step 7: Banned pattern scrub
 
-Before showing the post to the user, scan and rewrite any of:
-
-- Em dashes (replace with commas, colons, or periods)
-- Any banned word or phrase from voice-principles.md
-- Fragment question setups
-- Hidden truth reveals
-- Flip contrasts ("not X, but Y")
-- Poetic reductions and balanced reframes
-- Any paragraph longer than 3 sentences
+Before showing the post to the user, scan the draft against every banned phrase and structure in [`../_shared/how-we-write.md`](../_shared/how-we-write.md): em dashes, banned words, fragment-question setups, hidden-truth reveals, "it's not X, it's Y" flips, poetic reductions, balanced reframes, and any paragraph longer than 3 sentences.
 
 If any banned pattern survives, rewrite that sentence before output.
 

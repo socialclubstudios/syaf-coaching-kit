@@ -7,6 +7,10 @@ description: Process a SYAF coaching call transcript — saves raw transcript, u
 
 Take a coaching call transcript from Scale Your Accounting Firm (SYAF) and process it into the student intelligence vault.
 
+## Writing standard
+
+The prose you write into the vault — call summaries, win and flag entries, action items — follows the SYAF house writing standard at [`../_shared/how-we-write.md`](../_shared/how-we-write.md). Read it first, and keep entries clear and direct with none of the banned phrases or structures.
+
 ### SYAF vault path (portable)
 
 Check these paths in order and use the first that exists:
