@@ -303,13 +303,30 @@ Then add the new transcript to the student's `## Source Meetings` section.
 
 Tell the user:
 - Transcript file path
+- **Suggested Skool replay title** (formatted per Step 9)
 - Speaker guesses (name + confidence, one line each)
 - Which student profiles were updated
 - Any action items flagged
 
-### Step 9: Open for Skool posting
+### Step 9: Skool replay title + open for posting
 
-Open the transcript file so the user can copy the relevant sections into the Skool client portal:
+**First, generate the Skool replay title.** Every call posted in the cohort's Skool classroom uses this exact title format:
+
+`<Topic> w <Host first name> | YYYY-MM-DD`
+
+Rules:
+- **≤ 50 characters total** — Skool's hard title cap. The ` w <Host> | YYYY-MM-DD` suffix eats ~20–21 chars, so keep the Topic to ~28–30 chars. Count the full string before finalizing.
+- **Host** = first name only — `Peter`, `Ryan`, or `Brian` (whoever hosted). Use `Peter + Ryan` only if both genuinely co-hosted and it still fits ≤50.
+- **Date** = the true date the call happened, in `YYYY-MM-DD` — use the real call date even if the recording filename is misdated.
+- **Topic** = a punchy, benefit/topic-forward phrase capturing the call's main theme or signature framework (name the framework when there is one). No surrounding quotes, no trailing punctuation.
+
+Examples:
+- `AI Lead-Gen & Niche Strategy w Peter | 2026-05-29`
+- `The Nighthawk Role & SOPs w Ryan | 2026-05-27`
+- `Get 30 Referrals in 30 Days w Brian | 2026-06-03`
+- `The Hunter/Gatherer Model w Ryan | 2026-05-18`
+
+**Then open the transcript** so the user can copy the relevant sections into the Skool client portal:
 
 ```bash
 open "<vault>/Transcripts/<filename>.md"
@@ -317,9 +334,9 @@ open "<vault>/Transcripts/<filename>.md"
 
 Tell the user:
 
-> Transcript is open. Copy the **Summary** and **Action Items** sections into the Skool client portal for this cohort's classroom.
+> Transcript is open. Post the replay in this cohort's Skool classroom using the title above, and copy the **Summary** and **Action Items** sections into the post body.
 
-If multiple transcripts were processed (catch-up mode), open each one and list them.
+If multiple transcripts were processed (catch-up mode), open each one and list them — each with its own Skool replay title.
 
 ---
 
